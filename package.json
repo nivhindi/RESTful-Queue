@@ -1,0 +1,28 @@
+{
+  "name": "restful-queue",
+  "version": "1.0.0",
+  "description": "home assignment for sealights",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "npm run build && node index.js",
+    "build": "tsc index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivhindi/RESTful-Queue.git"
+  },
+  "author": "Niv Hindi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nivhindi/RESTful-Queue/issues"
+  },
+  "homepage": "https://github.com/nivhindi/RESTful-Queue#readme",
+  "dependencies": {
+    "@types/typescript": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}
